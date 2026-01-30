@@ -1,0 +1,58 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Data files (optional)
+# Uncomment if datasets are large or confidential
+# ===============================
+# data/
+# *.csv
+# *.xlsx
+
+# ===============================
+# Model artifacts
+# ===============================
+*.h5
+*.pkl
+*.joblib
+
+# ===============================
+# Logs & temp files
+# ===============================
+*.log
+*.tmp
+*.bak
+
+# ===============================
+# OS-specific files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor files
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Environment variables
+# ===============================
+.env
