@@ -1,11 +1,11 @@
-🛒 Walmart Weekly Sales Forecasting Using Time Series and Machine Learning Models
-📌 Project Overview
+ Walmart Weekly Sales Forecasting Using Time Series and Machine Learning Models
+ Project Overview
 
 Accurate sales forecasting is a critical requirement for large-scale retail organizations to ensure efficient inventory management, demand planning, workforce allocation, and supply chain optimization. This project focuses on forecasting weekly sales of Walmart stores using historical time-series data and a combination of statistical, machine learning, and deep learning models.
 
 The dataset reflects real-world retail behavior, incorporating seasonality, holiday effects, and economic indicators, making it suitable for building and evaluating robust forecasting solutions. The goal of this project is to analyze historical trends, build predictive models, compare their performance, and identify the most effective approach for weekly sales forecasting.
 
-🎯 Objectives
+ Objectives
 
 Perform time series analysis on Walmart weekly sales data
 
@@ -17,7 +17,7 @@ Evaluate model performance using standard error metrics
 
 Visualize forecasts and interpret results for business insights
 
-📂 Dataset Description
+ Dataset Description
 
 The dataset consists of historical weekly sales data from Walmart stores, including:
 
@@ -31,7 +31,7 @@ Additional economic or contextual features (if applicable)
 
 This dataset is widely used in retail analytics due to its realistic representation of business-driven time-series data.
 
-🛠️ Tech Stack
+ Tech Stack
 
 Programming Language: Python
 
@@ -53,8 +53,8 @@ TensorFlow / Keras
 
 Environment: Jupyter Notebook
 
-🔍 Methodology
-1️⃣ Data Preprocessing
+ Methodology
+ Data Preprocessing
 
 Data cleaning and handling missing values
 
@@ -64,7 +64,7 @@ Aggregation of weekly sales
 
 Feature selection and transformation
 
-2️⃣ Exploratory Data Analysis (EDA)
+ Exploratory Data Analysis (EDA)
 
 Trend analysis of weekly sales
 
@@ -74,7 +74,7 @@ Holiday impact analysis
 
 Visualization of time-series components
 
-3️⃣ Model Implementation
+ Model Implementation
 
 The following forecasting models were implemented and compared:
 
@@ -88,7 +88,7 @@ LSTM (Long Short-Term Memory Neural Network)
 
 Each model was trained using historical data and tested on unseen periods to evaluate forecasting accuracy.
 
-4️⃣ Model Evaluation
+ Model Evaluation
 
 Models were evaluated using standard forecasting metrics:
 
@@ -98,7 +98,7 @@ Root Mean Squared Error (RMSE)
 
 Mean Absolute Percentage Error (MAPE)
 
-📊 Results & Insights
+ Results & Insights
 
 Classical time-series models effectively captured linear trends and seasonality.
 
@@ -110,7 +110,7 @@ Model comparison highlighted trade-offs between interpretability and predictive 
 
 The results show that hybrid evaluation of statistical and deep learning models provides deeper insights into retail sales forecasting.
 
-📈 Visualizations
+ Visualizations
 
 Weekly sales trend plots
 
@@ -122,15 +122,15 @@ Error analysis charts
 
 These visualizations help translate model outputs into business-understandable insights.
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+ How to Run the Project
+ Clone the Repository
 git clone https://github.com/USERNAME/REPO_NAME.git
 cd REPO_NAME
 
-2️⃣ Install Dependencies
+ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the Notebook
+ Run the Notebook
 
 Open Jupyter Notebook and run:
 
@@ -139,14 +139,14 @@ jupyter notebook
 
 Then open data_analytics.ipynb and execute all cells sequentially.
 
-📁 Project Structure
+ Project Structure
 ├── data_analytics.ipynb
 ├── README.md
 ├── requirements.txt
 └── data/
     └── walmart_sales.csv
 
-🧠 Key Learnings
+ Key Learnings
 
 Practical understanding of retail time-series data
 
@@ -156,7 +156,7 @@ Importance of seasonality and holiday effects in sales prediction
 
 Model comparison and performance interpretation in real-world scenarios
 
-🔮 Future Enhancements
+ Future Enhancements
 
 Incorporate exogenous variables such as promotions and weather data
 
